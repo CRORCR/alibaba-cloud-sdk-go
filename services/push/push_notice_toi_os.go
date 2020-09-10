@@ -85,8 +85,8 @@ type PushNoticeToiOSRequest struct {
 	AppKey                requests.Integer `position:"Query" name:"AppKey"`
 	TargetValue           string           `position:"Query" name:"TargetValue"`
 	Badge                 requests.Integer `position:"Query" name:"Badge"`
-	IOSBadge              requests.Integer `position:"Query" name:"IOSBadge"`
-	IOSBadgeAutoIncrement bool             `position:"Query" name:"IOSBadgeAutoIncrement"`
+	IOSBadge              requests.Integer `position:"Query" name:"iOSBadge"`
+	IOSBadgeAutoIncrement requests.Boolean `position:"Query" name:"iOSBadgeAutoIncrement"`
 }
 
 // PushNoticeToiOSResponse is the response struct for api PushNoticeToiOS
