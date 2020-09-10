@@ -3,7 +3,7 @@ package signers
 import (
 	"testing"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials"
 	"github.com/stretchr/testify/assert"
 )
 

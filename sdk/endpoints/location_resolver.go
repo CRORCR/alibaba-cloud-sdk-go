@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
 )
 
 const (

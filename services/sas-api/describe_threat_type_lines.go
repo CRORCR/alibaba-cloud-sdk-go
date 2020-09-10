@@ -16,8 +16,8 @@ package sas_api
 // Changes may cause incorrect behavior and will be lost if the code is regenerated.
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/responses"
 )
 
 // DescribeThreatTypeLines invokes the sas_api.DescribeThreatTypeLines API synchronously

@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/services/cr"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/services/cr"
 
 	"github.com/stretchr/testify/assert"
 

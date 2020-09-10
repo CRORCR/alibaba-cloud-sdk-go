@@ -16,8 +16,8 @@ package crm
 // Changes may cause incorrect behavior and will be lost if the code is regenerated.
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/responses"
 )
 
 // QueryBidUserCertifiedInfo invokes the crm.QueryBidUserCertifiedInfo API synchronously

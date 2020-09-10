@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/signers"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/signers"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
 )
 
 func mockRpcDate(fn func() string) string {

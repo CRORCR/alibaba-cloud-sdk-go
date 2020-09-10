@@ -2,9 +2,9 @@ package mns
 
 import (
 	"bytes"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/utils"
 	"sort"
 	"strings"
 )
@@ -22,7 +22,6 @@ import (
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 
 func signMnsRoaRequest(request requests.AcsRequest, signer auth.Signer) (err error) {
 	completeROASignParams(request, signer)
@@ -107,4 +106,3 @@ func appendIfContain(sourceMap map[string]string, target *bytes.Buffer, key, sep
 		target.WriteString(separator)
 	}
 }
-

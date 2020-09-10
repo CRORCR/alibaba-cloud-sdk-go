@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/errors"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/responses"
 	jmespath "github.com/jmespath/go-jmespath"
 )
 

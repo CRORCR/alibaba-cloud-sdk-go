@@ -7,11 +7,11 @@ import (
 	"crypto/cipher"
 	"strings"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/services/airec"
-	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/services/airec"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/services/ecs"
 	"github.com/stretchr/testify/assert"
 
 	"os"

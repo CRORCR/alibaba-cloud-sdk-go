@@ -16,8 +16,8 @@ package cusanalytic_sc_online
 // Changes may cause incorrect behavior and will be lost if the code is regenerated.
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/responses"
 )
 
 // GetPortrayal invokes the cusanalytic_sc_online.GetPortrayal API synchronously

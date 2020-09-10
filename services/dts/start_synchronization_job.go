@@ -16,8 +16,8 @@
 package dts
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/responses"
 )
 
 // StartSynchronizationJob invokes the dts.StartSynchronizationJob API synchronously

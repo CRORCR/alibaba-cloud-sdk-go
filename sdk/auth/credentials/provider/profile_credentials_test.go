@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
 )
 
 var inistr = `

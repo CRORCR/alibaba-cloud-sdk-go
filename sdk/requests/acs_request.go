@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/errors"
 )
 
 const (

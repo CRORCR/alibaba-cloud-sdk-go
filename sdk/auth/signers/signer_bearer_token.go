@@ -1,7 +1,7 @@
 package signers
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials"
 )
 
 type BearerTokenSigner struct {

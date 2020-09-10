@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/errors"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/requests"
 
 	"github.com/stretchr/testify/assert"
 )

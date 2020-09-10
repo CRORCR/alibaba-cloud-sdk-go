@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/errors"
 )
 
 type AcsResponse interface {

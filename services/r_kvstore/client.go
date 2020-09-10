@@ -18,9 +18,9 @@ package r_kvstore
 import (
 	"reflect"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth"
+	"github.com/CRORCR/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
 )
 
 // Client is the sdk client struct, each func corresponds to an OpenAPI
@@ -43,7 +43,7 @@ func SetEndpointDataToClient(client *Client) {
 }
 
 // NewClient creates a sdk client with environment variables
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClient() (client *Client, err error) {
 	client = &Client{}
 	err = client.Init()
@@ -52,8 +52,8 @@ func NewClient() (client *Client, err error) {
 }
 
 // NewClientWithProvider creates a sdk client with providers
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithProvider(regionId string, providers ...provider.Provider) (client *Client, err error) {
 	client = &Client{}
 	var pc provider.Provider
@@ -69,7 +69,7 @@ func NewClientWithProvider(regionId string, providers ...provider.Provider) (cli
 
 // NewClientWithOptions creates a sdk client with regionId/sdkConfig/credential
 // this is the common api to create a sdk client
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithOptions(regionId string, config *sdk.Config, credential auth.Credential) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithOptions(regionId, config, credential)
@@ -78,8 +78,8 @@ func NewClientWithOptions(regionId string, config *sdk.Config, credential auth.C
 }
 
 // NewClientWithAccessKey is a shortcut to create sdk client with accesskey
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithAccessKey(regionId, accessKeyId, accessKeySecret string) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithAccessKey(regionId, accessKeyId, accessKeySecret)
@@ -88,8 +88,8 @@ func NewClientWithAccessKey(regionId, accessKeyId, accessKeySecret string) (clie
 }
 
 // NewClientWithStsToken is a shortcut to create sdk client with sts token
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithStsToken(regionId, stsAccessKeyId, stsAccessKeySecret, stsToken string) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithStsToken(regionId, stsAccessKeyId, stsAccessKeySecret, stsToken)
@@ -98,8 +98,8 @@ func NewClientWithStsToken(regionId, stsAccessKeyId, stsAccessKeySecret, stsToke
 }
 
 // NewClientWithRamRoleArn is a shortcut to create sdk client with ram roleArn
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithRamRoleArn(regionId string, accessKeyId, accessKeySecret, roleArn, roleSessionName string) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithRamRoleArn(regionId, accessKeyId, accessKeySecret, roleArn, roleSessionName)
@@ -108,8 +108,8 @@ func NewClientWithRamRoleArn(regionId string, accessKeyId, accessKeySecret, role
 }
 
 // NewClientWithRamRoleArn is a shortcut to create sdk client with ram roleArn and policy
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithRamRoleArnAndPolicy(regionId string, accessKeyId, accessKeySecret, roleArn, roleSessionName, policy string) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithRamRoleArnAndPolicy(regionId, accessKeyId, accessKeySecret, roleArn, roleSessionName, policy)
@@ -118,8 +118,8 @@ func NewClientWithRamRoleArnAndPolicy(regionId string, accessKeyId, accessKeySec
 }
 
 // NewClientWithEcsRamRole is a shortcut to create sdk client with ecs ram role
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithEcsRamRole(regionId string, roleName string) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithEcsRamRole(regionId, roleName)
@@ -128,8 +128,8 @@ func NewClientWithEcsRamRole(regionId string, roleName string) (client *Client, 
 }
 
 // NewClientWithRsaKeyPair is a shortcut to create sdk client with rsa key pair
-// usage: https://github.com/aliyun/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
-// Deprecated: Please use github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore instead
+// usage: https://github.com/CRORCR/alibaba-cloud-sdk-go/blob/master/docs/2-Client-EN.md
+// Deprecated: Please use github.com/CRORCR/alibaba-cloud-sdk-go/services/r-kvstore instead
 func NewClientWithRsaKeyPair(regionId string, publicKeyId, privateKey string, sessionExpiration int) (client *Client, err error) {
 	client = &Client{}
 	err = client.InitWithRsaKeyPair(regionId, publicKeyId, privateKey, sessionExpiration)
