@@ -76,14 +76,17 @@ func (client *Client) PushNoticeToiOSWithCallback(request *PushNoticeToiOSReques
 // PushNoticeToiOSRequest is the request struct for api PushNoticeToiOS
 type PushNoticeToiOSRequest struct {
 	*requests.RpcRequest
-	ExtParameters string           `position:"Query" name:"ExtParameters"`
-	ApnsEnv       string           `position:"Query" name:"ApnsEnv"`
-	Title         string           `position:"Query" name:"Title"`
-	Body          string           `position:"Query" name:"Body"`
-	JobKey        string           `position:"Query" name:"JobKey"`
-	Target        string           `position:"Query" name:"Target"`
-	AppKey        requests.Integer `position:"Query" name:"AppKey"`
-	TargetValue   string           `position:"Query" name:"TargetValue"`
+	ExtParameters         string           `position:"Query" name:"ExtParameters"`
+	ApnsEnv               string           `position:"Query" name:"ApnsEnv"`
+	Title                 string           `position:"Query" name:"Title"`
+	Body                  string           `position:"Query" name:"Body"`
+	JobKey                string           `position:"Query" name:"JobKey"`
+	Target                string           `position:"Query" name:"Target"`
+	AppKey                requests.Integer `position:"Query" name:"AppKey"`
+	TargetValue           string           `position:"Query" name:"TargetValue"`
+	Badge                 requests.Integer `position:"Query" name:"Badge"`
+	IOSBadge              requests.Integer `position:"Query" name:"IOSBadge"`
+	IOSBadgeAutoIncrement bool             `position:"Query" name:"IOSBadgeAutoIncrement"`
 }
 
 // PushNoticeToiOSResponse is the response struct for api PushNoticeToiOS
